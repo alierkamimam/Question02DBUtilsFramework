@@ -27,6 +27,11 @@ public class question02StepDefs {
         Assert.assertEquals(map.get("full_name").toString().trim(),full_name);
         Assert.assertEquals(map.get("total_amount").toString().trim(),total_amount);
 
+        System.out.println("---------------------------------------");
+        System.out.println(map.get("month_name").toString().trim());
+        System.out.println(map.get("full_name").toString().trim());
+        System.out.println(map.get("total_amount").toString().trim());
+        System.out.println("---------------------------------------");
     }
 
 }
